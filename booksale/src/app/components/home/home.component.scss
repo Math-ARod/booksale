@@ -55,14 +55,46 @@
                 }
         
                 .bookimg {
+                    display: flex;
                     max-width: 200px;
+                    max-height: 200px;
+                    transition: 0.5s;
+                }
+
+                .bookimg:hover {
+                    transform: scale(1.5);
+                    transition: 0.5s ease-in-out;
                 }
 
             }
-
 
         }
 
     }
 
+    .book {
+        display: flex;
+        max-width: 70vw;
+        align-items: flex-start;
+        text-align: justify;
+        margin-bottom: 3rem;
+
+        .booktitle {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+    }
+
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: rgb(255, 221, 159);
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }
