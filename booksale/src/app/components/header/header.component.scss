@@ -1,0 +1,18 @@
+.all {
+    display: flex;
+    align-items: center;
+    background-color: rgb(84, 60, 39);
+    color: white;
+    padding: 1rem;
+
+    .logo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    }
+
+    .title {
+        margin-left: 2rem;
+        font-size: 3rem;
+    }
+}

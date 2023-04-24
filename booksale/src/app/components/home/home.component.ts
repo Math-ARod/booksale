@@ -14,6 +14,10 @@ export class HomeComponent {
 
     vidasOcultas: string = 'Vidas Ocultas é um livro composto por três contos que se passam no Brasil. O primeiro conto é A Jornada Até Pore Yamari, uma história de suspense que se passa em Manaus, narrando a viagem de um caminhoneiro por uma estrada cheia de mistérios. O segundo é Confinamento da Alma, um drama paranormal que narra uma breve parte da vida de Kako Koukai, um japonês habitando o Bairro da Liberdade em São Paulo e suas ações para ajudar a alma de uma menina. A terceira história começa na época do descobrimento e é narrada sob o olhar de um pau-brasil, revisitando a escravidão e vindo até os tempos modernos. Vidas Ocultas foi escrito por Vincent W Grimmer em 2019 e é um de seus livros favoritos'
 
+    oManuscritoDosMalakins: string = 'O Manuscrito dos Malakins é uma história com base bíblica. Neste livro Vincent W. Grimmer narra a criação do Céu e da Terra e a queda dos anjos. É uma fantasia perfeita para cristãos, respeitando a tradição. Mas também é uma história que será apreciada por qualquer um que goste de fantasia medieval e de histórias de batalhas. Há personagens poderosos, como o Arcanjo Miguel, o mensageiro Gabriel, o próprio Yahwe e o anjo caído, Lúcifer'
+
+    contato: string = 'Você pode nos contatar pelo direct do Instagram para mais informações. Clique no botão abaixo para conversarmos.'
+
   constructor(private booksService: BooksdescriptionserviceService) {}
 
   // aJornada(msg: string): void {

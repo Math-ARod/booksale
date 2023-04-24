@@ -1,0 +1,68 @@
+.all {
+    display: grid;
+    margin: auto;
+    max-width: 70vw;
+    text-align: justify;
+    align-items: center;
+
+    .header {
+        margin: 3rem 0 3rem 0;
+
+        .title {
+            font-size: 2rem;
+        }
+
+        .description {
+
+        }
+    }
+
+    .author {
+        margin: 0rem 0 3rem 0;
+
+        .subtitle {
+            font-size: 2rem;
+        }
+    }
+
+    .library {
+        display: flex;
+        align-items: center;
+
+        .book {
+            display: flex;
+            max-width: 70vw;
+            align-items: flex-start;
+            text-align: justify;
+            margin-bottom: 3rem;
+
+            .booktitle {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                text-align: left;
+            }
+
+            .informations {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 1rem;
+
+                .bookdescription {
+                    margin-left: 1rem;
+                    margin-top: 0;
+                    font-size: 1.2rem;
+    
+                }
+        
+                .bookimg {
+                    max-width: 200px;
+                }
+
+            }
+
+
+        }
+
+    }
+
+}
