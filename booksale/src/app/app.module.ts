@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BooksdescriptionComponent } from './shared/booksdescription/booksdescription.component';
+import { BookModule } from './features/book/book.module'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BooksdescriptionComponent } from './shared/booksdescription/booksdescri
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    BookModule
   ],
   providers: [],
   bootstrap: [AppComponent]

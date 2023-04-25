@@ -1,0 +1,25 @@
+<mat-card class="library">
+  <mat-card *ngFor="let book of bookslist" class="book">
+
+    <mat-card-header>
+        <div class="divtitle">
+            <mat-card-title class="booktitle">{{ book.title }}</mat-card-title>
+        </div>
+
+    </mat-card-header>
+
+    <mat-card-content>
+        <div class="informations">
+            <div class="divimg">
+                <img class="bookimg" [src]="book.img" alt="" />
+            </div>
+
+            <p class="bookdescription">{{ book.description }}</p>
+          </div>
+      
+          <a [href]="book.link" target="_blank">
+            <button mat-raised-button class="button">Peça Já O Seu</button>
+          </a>
+    </mat-card-content>
+  </mat-card>
+</mat-card>

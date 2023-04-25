@@ -1,3 +1,4 @@
+import { BookModule } from './../../features/book/book.module';
 import { BooksdescriptionserviceService } from './../../shared/booksdescription/booksdescriptionservice.service';
 import { Component } from '@angular/core';
 
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent {
+
 
   msg:string = '';
 
@@ -18,7 +21,7 @@ export class HomeComponent {
 
     contato: string = 'Você pode nos contatar pelo direct do Instagram para mais informações. Clique no botão abaixo para conversarmos.'
 
-  constructor(private booksService: BooksdescriptionserviceService) {}
+  constructor(private booksService: BooksdescriptionserviceService ) {}
 
   // aJornada(msg: string): void {
   //   this.msg = this.booksService.aJornadaDeLaila

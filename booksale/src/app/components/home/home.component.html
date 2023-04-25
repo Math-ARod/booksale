@@ -9,42 +9,11 @@
         <p class="description">Os livros postados no site são de total autoria de Vincent W. Grimmer, que vem se aperfeiçoando na escrita desde os seus 18 anos. Os títulos do site são auto-publicações, mas logo teremos aqui um de seus livros que foi publicado em Portugal, chamado "A Primeira Noite. Aguarde, e em quanto isso veja os títulos que já temos disponíveis." </p>
     </mat-card>
 
-    <mat-card class="library">
-        <mat-card class="book">
-            <mat-card-subtitle class="booktitle">A Jornada de Laila</mat-card-subtitle>
+    <app-bookslist></app-bookslist>
 
-            <div class="informations">
-                <img class="bookimg" src="./../../../assets//img/capaa jornada de laila.jpg" alt="">
-                <p class="bookdescription">{{aJornadaDeLaila}}</p>
-            </div>
-
-            <a href="" target="_blank"><button class="button">Peça Já O Seu</button></a>
-        </mat-card>
-        
-        <mat-card class="book">
-            <mat-card-subtitle class="booktitle">Vidas Ocultas</mat-card-subtitle>
-            <div class="informations">
-                <img class="bookimg" src="./../../../assets//img/capa vidas ocultas.jpg" alt="">
-                <p class="bookdescription">{{vidasOcultas}}</p>
-            </div>
-            <a href="" target="_blank"><button class="button">Peça Já O Seu</button></a>
-        </mat-card>
-        
-        <mat-card class="book">
-            <mat-card-subtitle class="booktitle">O Manuscrito dos Malakins</mat-card-subtitle>
-
-            <div class="informations">
-                <img class="bookimg" src="./../../../assets//img/capa o manuscrito.jpg" alt="">
-                <p class="bookdescription">{{oManuscritoDosMalakins}}</p>
-            </div>
-
-            <a href="" target="_blank"><button class="button">Peça Já O Seu</button></a>
-        </mat-card>
+    <mat-card class="book">
+        <mat-card-subtitle class="booktitle">Contato</mat-card-subtitle>
+        <p class="bookdescription">{{contato}}</p>
+        <a href="https://ig.me/m/vincent_w_grimmer" target="_blank"><button class="button">Direct</button></a>
     </mat-card>
-
-<mat-card class="book">
-    <mat-card-subtitle class="booktitle">Contato</mat-card-subtitle>
-    <p class="bookdescription">{{contato}}</p>
-    <a href="https://ig.me/m/vincent_w_grimmer" target="_blank"><button class="button">Direct</button></a>
-</mat-card>
 </div>

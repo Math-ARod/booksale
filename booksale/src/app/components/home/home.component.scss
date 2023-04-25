@@ -8,9 +8,11 @@
     .header {
         margin: 3rem 0 3rem 0;
         box-shadow: none;
+        background-color: rgba(255, 255, 255, 0);
 
         .title {
-            font-size: 3vw;
+            font-size: 5vw;
+            margin-bottom: 2vw;
         }
 
         .description {
@@ -21,71 +23,27 @@
     .author {
         margin: 0rem 0 3rem 0;
         box-shadow: none;
+        background-color: rgba(255, 255, 255, 0);
 
         .subtitle {
             font-size: 3vw;
         }
     }
 
-    .library {
-        display: flex;
-        align-items: center;
-        box-shadow: none;
-
-        .book {
-            box-shadow: none;
-            display: flex;
-            max-width: 95vw;
-            align-items: flex-start;
-            text-align: justify;
-            margin-bottom: 3rem;
-
-            .booktitle {
-                font-size: 3vw;
-                margin-bottom: 1rem;
-                text-align: left;
-            }
-
-            .informations {
-                display: flex;
-                flex-direction: row;
-                margin-bottom: 1rem;
-
-                .bookdescription {
-                    margin-left: 1rem;
-                    margin-top: 0;
-    
-                }
-        
-                .bookimg {
-                    display: flex;
-                    max-width: 200px;
-                    max-height: 200px;
-                    transition: 0.5s;
-                }
-
-                .bookimg:hover {
-                    transform: scale(1.5);
-                    transition: 0.5s ease-in-out;
-                }
-
-            }
-
-        }
-
-    }
-
     .book {
         display: flex;
-        max-width: 70vw;
+        max-width: 95vw;
         align-items: flex-start;
         text-align: justify;
         margin-bottom: 3rem;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: none;
 
         .booktitle {
             font-size: 2rem;
             margin-bottom: 1rem;
             text-align: left;
+            color: black;
         }
     }
 
