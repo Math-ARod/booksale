@@ -23,10 +23,13 @@
             }
 
             .booktitle {
-                font-size: 5vw;
+                font-size: 3vw;
                 margin-bottom: 2vw;
                 text-align: left;
                 color: black;
+                @media screen and (max-width: 580px) {
+                    font-size: 5vw;
+                }
             }
         }
 
